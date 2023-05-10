@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobson</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reusables.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-item">
+          <img
+            src="./img/Combined-Shape.png"
+            alt="Jobson Logo"
+            class="nav-logo"
+          />
+          <p class="logo-title">Jobson</p>
+        </div>
+
+        <div class="header-nav-links nav-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Job listings</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">How it works</a>
+          <a href="#" class="nav-link">categories</a>
+        </div>
+
+        <div class="nav-btn">
+          <a href="./createAccount.html" class="btn align--center"
+            >Get Started</a
+          >
+        </div>
+
+        <div class="hide nav-icon">
+          <ion-icon
+            name="reorder-three-outline"
+            class="nav-icon open-nav-btn"
+          ></ion-icon>
+
+          <!-- <ion-icon
+            name="close-outline"
+            class="nav-icon close-nav-btn"
+          ></ion-icon> -->
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main  Sections-->
+    <main>
+      <section class="section-hero">
+        <div class="hero grid-col--2">
+          <!-- Hero Text -->
+          <div class="hero-text">
+            <h1 class="primary-heading">
+              finding remote jobs has never been his easy
+            </h1>
+            <p class="paragragh">
+              Getting remote jobs has become faster and seemless with Jobson, we
+              are aimed at providing freeancers and remote workers with fast and
+              reliable jobs
+            </p>
+
+            <div class="hero-form--div">
+              <div class="hero-form--flex">
+                <h3 class="sub-heading">Search job</h3>
+                <form action="" class="hero-form">
+                  <div class="hero-inputs">
+                    <div>
+                      <ion-icon
+                        name="search-outline"
+                        class="icon-sm"
+                      ></ion-icon>
+                      <input
+                        type="text"
+                        class="hero-input"
+                        placeholder="job description"
+                      />
+                    </div>
+
+                    <div>
+                      <ion-icon
+                        name="location-outline"
+                        class="icon-sm"
+                      ></ion-icon>
+                      <input
+                        type="text"
+                        class="hero-input"
+                        placeholder="Location"
+                      />
+                    </div>
+                  </div>
+                </form>
+
+                <a href="#" class="btn--green text--center">Search Job</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image -->
+          <div class="hero-img--div">
+            <img
+              src="./img/JOB1.png"
+              alt="A man working and smiling on a computer"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Available Jobs Lisitings -->
+      <section class="job-listing-section">
+        <article class="job-listing">
+          <h2 class="secondary-heading">Available Job lisitings</h2>
+          <p class="paragragh dark">
+            Check out the available job listings for the week and apply right
+            now
+          </p>
+
+          <div class="jobs">
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="justify--center">
+            <a href="#" class="btn--green--small round">View listings</a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Trusted Patners -->
+      <section class="trusted-patners-section">
+        <div class="trusted-patners-div">
+          <div>
+            <h2 class="secondary-heading">Our trusted Patners</h2>
+            <p class="paragragh dark trusted-paragragh">
+              Take a look at some of our prestigious patners and get hired today
+            </p>
+          </div>
+
+          <ul class="trusted-patners">
+            <li>
+              <img
+                class="trusted-patner-img"
+                src="./img/Dangote Cement - png.png"
+                alt="Dangote cement image"
+              />
+            </li>
+
+            <li>
+              <img
+                class="trusted-patner-img"
+                src="./img/Honeywell svg.png"
+                alt="Dangote cement image"
+              />
+            </li>
+
+            <li>
+              <img
+                class="trusted-patner-img"
+                src="./img/Vector.png"
+                alt="Dangote cement image"
+              />
+            </li>
+
+            <li>
+              <img
+                class="trusted-patner-img"
+                src="./img/Nokia svg.png"
+                alt="Dangote cement image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+
+      <section class="about-us-section">
+        <div class="about-us grid-col--2">
+          <div class="about-texts align--center light">
+            <div class="about-us-text">
+              <h3 class="sub-heading light">About us</h3>
+              <h2 class="secondary-heading">
+                Looking to work remotely? Jobson is a great platform for you
+              </h2>
+              <p class="paragragh">
+                Jobson is a platform dedicated towards providing freelancers and
+                remote workers an avenue to gain more clients for different job
+              </p>
+
+              <div class="about-us--details">
+                <div class="about-us-detail">
+                  <h3 class="tertiary-heading">100</h3>
+                  <p class="paragragh--bg-text">client satisfaction</p>
+                </div>
+
+                <div class="about-us-detail">
+                  <h3 class="tertiary-heading">70+</h3>
+                  <p class="paragragh--bg-text">Remote workers</p>
+                </div>
+
+                <div class="about-us-detail">
+                  <h3 class="tertiary-heading">100</h3>
+                  <p class="paragragh--bg-text">Major companies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-us-img">
+            <img
+              src="./img/JOB4.png"
+              alt="A black woman operating an apple laptop"
+              class="about-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="how">
+        <div class="how-it-works">
+          <div class="how-heading">
+            <h2 class="secondary-heading">How it works</h2>
+            <p class="paragragh dark">
+              Here's how Jobson works, follow the necassary steps and begin your
+              career working remotely
+            </p>
+          </div>
+
+          <div class="how-details">
+            <div class="how-detail">
+              <ion-icon name="person-outline" class="icon-md"></ion-icon>
+              <h3 class="sub-heading dark">Create Account</h3>
+              <p class="paragragh dark">
+                Register with us using a valid email address and phone number
+              </p>
+            </div>
+
+            <div class="how-detail">
+              <ion-icon name="reader-outline" class="icon-md"></ion-icon>
+              <h3 class="sub-heading dark">Choose your specialization</h3>
+              <p class="paragragh dark">
+                Select your area of specialization, and search available jobs
+              </p>
+            </div>
+
+            <div class="how-detail">
+              <ion-icon name="briefcase-outline" class="icon-md"></ion-icon>
+              <h3 class="sub-heading dark">Apply for Jobs</h3>
+              <p class="paragragh dark">
+                Apply for jobs based on your area of specialization seemlessly
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Borwse Job Section -->
+      <section class="browse-job">
+        <div class="browse-jobs">
+          <div class="browse-job-heading">
+            <h2 class="secondary-heading">Browse Job based on category</h2>
+            <p class="paragragh dark">
+              Check out the available job listings for the week and apply now
+            </p>
+          </div>
+
+          <div class="browse-job-btns">
+            <div class="location-btn-div">
+              <ion-icon name="location-outline" class="icon-sm"></ion-icon>
+              <button class="btn--location">location</button>
+            </div>
+
+            <button class="btn--green--small">Generate</button>
+          </div>
+
+          <div class="browse-job-list-div">
+            <ul class="browse-job-lists">
+              <li class="browse-job-list">
+                <button class="browse-job-btn">Design</button>
+              </li>
+
+              <li class="browse-job-list">
+                <button class="browse-job-btn">IT&nbsp;&&nbsp;Software</button>
+              </li>
+
+              <li class="browse-job-list">
+                <button class="browse-job-btn">Development</button>
+              </li>
+
+              <li class="browse-job-list">
+                <button class="browse-job-btn">Marketing</button>
+              </li>
+
+              <li class="browse-job-list">
+                <button class="browse-job-btn">Management</button>
+              </li>
+
+              <li class="browse-job-list">
+                <button class="browse-job-btn">
+                  Finance&nbsp;&&nbsp;Accounting
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="jobs">
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+
+            <div class="job">
+              <div class="job-heading-details">
+                <h3 class="sub-heading">UI/UX Designer</h3>
+                <p class="paragragh dark">Slack</p>
+
+                <ul class="type--applicants">
+                  <li class="type--applicant">
+                    <ion-icon
+                      name="location-outline"
+                      class="icon-sm"
+                    ></ion-icon>
+                    <p class="paragragh dark">remote</p>
+                  </li>
+
+                  <li class="type--applicant">
+                    <ion-icon name="people-outline" class="icon-sm"></ion-icon>
+                    <p class="paragragh dark">applicants</p>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="price">$50k/Month</p>
+
+              <a href="#" class="btn--green">Apply Here</a>
+              <div class="job-logo-div">
+                <ion-icon name="logo-amazon" class="job-logo"></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="justify--center">
+            <a href="#" class="btn--green--small round">View listings</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cutomer Reviews Section -->
+      <section class="review-section">
+        <div class="review grid-col--2">
+          <div class="review-img">
+            <img
+              src="./img/JOB8.png"
+              class="review-image"
+              alt="A man wearing suit"
+            />
+          </div>
+
+          <div class="review-text">
+            <div class="review-text-div">
+              <h2 class="secondary-heading light review-text-heading">
+                Customer reviews
+              </h2>
+              <p class="paragragh review-paragragh">
+                Take a look at our top Freelancer and clients review, our
+                reliability knows no bound
+              </p>
+
+              <div class="customer-review">
+                <h3 class="sub-heading">Christian</h3>
+                <p class="paragragh dark">
+                  The very best of them all, I got three remote jobs within the
+                  space of 2 weeks due to the reliability of Jobson
+                </p>
+
+                <div class="review-ratings">
+                  <ion-icon name="star-outline" class="review-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="review-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="review-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="review-icon"></ion-icon>
+                  <ion-icon name="star-outline" class="review-icon"></ion-icon>
+                </div>
+              </div>
+
+              <div class="review-arrows">
+                <ion-icon
+                  name="arrow-back-outline"
+                  class="review-arrow align--center"
+                ></ion-icon>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  class="review-arrow align--center"
+                ></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-contents footer--grid">
+          <div class="footer-content footer-logo">
+            <div class="footer-hd-spacing">
+              <div class="nav-item">
+                <ion-icon
+                  name="briefcase-outline"
+                  class="nav-logo footer-icon light"
+                ></ion-icon>
+                <p class="logo-title light">Jobson</p>
+              </div>
+
+              <p class="paragragh">
+                Getting remote job has become faster and seemless with Jobson,
+                we are aimed at providing freelancers and remote workers with
+                fast and reliable jobs
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-content">
+            <nav class="footer-hd-spacing">
+              <h2 class="sub-heading light">Menu</h2>
+              <div class="nav-links footer-links footer-flex">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Job listings</a>
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">How it works</a>
+                <a href="#" class="nav-link">categories</a>
+              </div>
+            </nav>
+          </div>
+
+          <div class="footer-content">
+            <nav class="footer-hd-spacing">
+              <h2 class="sub-heading light">Social Media</h2>
+              <div class="nav-links footer-links footer-flex">
+                <a href="#" class="nav-link footer-social-link">
+                  <p>Facebook</p>
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#" class="nav-link footer-social-link">
+                  <p>Twitter</p>
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#" class="nav-link footer-social-link">
+                  <p>Instagram</p>
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="nav-link footer-social-link">
+                  <p>Linkedin</p>
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="#" class="nav-link footer-social-link">
+                  <p>Discord</p>
+                  <ion-icon name="logo-discord"></ion-icon>
+                </a>
+              </div>
+            </nav>
+          </div>
+
+          <div class="footer-content footer-newsletter">
+            <div class="footer-hd-spacing">
+              <h2 class="sub-heading light">Social Media</h2>
+
+              <p class="paragragh">
+                Subscribe to our to our Newsletter and get get daily updates
+                from us
+              </p>
+
+              <div class="footer--input-div hero-inputs bg-inherit">
+                <input
+                  type="text"
+                  class="footer--input hero-input bg-inherit"
+                  placeholder="Email address"
+                />
+                <button class="footer--btn">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="light copyright">
+          <span> &copy;</span>
+          <p>Copyright 2023</p>
+          <p>JOBSON TECH</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

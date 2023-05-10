@@ -1,0 +1,99 @@
+/* Implementing Resposiveness With Media Query */
+@media (max-width: 67em) {
+  .how-detail {
+    padding: 2.4rem 1.7rem;
+    /* font-size: ; */
+  }
+
+  .how-details {
+    gap: 1.4rem;
+  }
+  .nav {
+    padding: 1.4rem 6.2rem;
+  }
+
+  .footer--grid {
+    gap: 6.3rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .nav .nav-links {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-icon {
+    display: flex;
+  }
+
+  .grid-col--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img--div {
+    display: none;
+  }
+
+  .about-us-img {
+    max-height: 48rem;
+  }
+
+  .about-img {
+    object-fit: cover;
+  }
+
+  .review-img {
+    height: 47rem;
+  }
+
+  .review-image {
+    object-fit: cover;
+  }
+
+  .footer-logo {
+    grid-column: 1 /-1;
+  }
+
+  .footer-newsletter {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 47em) {
+  html {
+    font-size: 60%;
+  }
+
+  .footer--input::placeholder {
+    font-size: 1.4rem;
+  }
+
+  .trusted-patners {
+    gap: 2.4rem;
+  }
+
+  .trusted-patner-img {
+    height: 2.4rem;
+  }
+
+  .footer-newsletter {
+    grid-row: 3;
+    grid-column: 4 /-5;
+  }
+}
+
+@media (max-width: 41em) {
+  .how-details {
+    flex-direction: column;
+    gap: 2.7rem;
+  }
+
+  .footer--grid {
+    /* grid-template-columns: 1fr 1.5fr 1.5fr 1fr; */
+    /* gap: 4.8rem; */
+  }
+}

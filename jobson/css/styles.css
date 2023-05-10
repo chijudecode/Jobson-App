@@ -1,0 +1,547 @@
+/* Universal Reset */
+.header {
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 10rem;
+
+  /* Temp */
+  /* background-color: aliceblue; */
+}
+
+.nav-logo {
+  width: 3.2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-icon {
+  height: 4.8rem;
+  width: 4.2rem;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.header-nav-links.nav-links.show-nav {
+  position: absolute;
+  display: flex;
+  gap: 6.8rem;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  transition: all 2s;
+  /* height: 100%; */
+  transform: translate(-6.2rem, 40%);
+
+  padding: 7.8rem 0rem;
+  z-index: 10000;
+}
+
+.show-nav .nav-link {
+  margin: auto;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.nav-div {
+  /* display: block; */
+}
+
+.nav-links {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 500;
+  gap: 3.2rem;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #1b1c1e;
+}
+
+/* Hero Section */
+
+.section-hero {
+  /* height: 100vh; */
+  height: 100vh;
+}
+.hero {
+  max-width: fit-content;
+  /* height: 100vh; */
+}
+
+.hero-text {
+  background-color: #35383e;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.2rem;
+
+  padding: 2.4rem 4.2rem;
+  margin-bottom: 0;
+  height: 100vh;
+  width: 100%;
+  /* flex-grow: 0; */
+}
+
+.hero-img--div {
+}
+
+.hero-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-form--div {
+  display: inline-block;
+  background-color: #fff;
+  max-height: 24.5rem;
+  padding: 3rem 2.4rem;
+  border-radius: 1.5rem;
+}
+
+.hero-form--flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.hero-inputs {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.hero-inputs div {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid #35383e;
+  border-radius: 1rem;
+  max-height: 4.2rem;
+}
+
+.hero-input {
+  border: none;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.hero-input:focus {
+  outline: none;
+}
+
+/* Job Lisiting Section */
+.job-listing-section {
+  margin-top: 7.8rem;
+}
+
+.job-listing {
+  margin-left: 6.2rem;
+  overflow: hidden;
+}
+
+.jobs {
+  display: flex;
+  gap: 2.4rem;
+  overflow: auto;
+
+  margin-bottom: 4.2rem;
+}
+
+.job {
+  display: inline-block;
+  margin-top: 2.4rem;
+  padding: 3.2rem;
+  border: 1px solid #35383e;
+  border-radius: 1.2rem;
+}
+
+.job-heading-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3;
+}
+
+.type--applicants {
+  display: flex;
+  list-style-type: none;
+  gap: 2.8rem;
+}
+
+.type--applicant {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.7rem;
+}
+
+/* Trusted Patners */
+.trusted-patners-section {
+  /* background-color: aquamarine; */
+  margin-top: 7.8rem;
+}
+
+.trusted-patners-div {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 6.2rem;
+}
+
+.trusted-patners-div div {
+  margin-bottom: 4.2rem;
+}
+
+.trusted-patners {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  gap: 3.2rem;
+  justify-content: center;
+}
+
+.trusted-patner-img {
+  height: 2.9rem;
+}
+
+.trusted-paragragh {
+  max-width: 43rem;
+}
+
+/* About Us Section */
+.about-us-section {
+  margin-top: 7.8rem;
+}
+
+.about-us {
+  /* max-width: 120rem; */
+  /* padding: 0 6.2rem; */
+  margin: auto;
+}
+
+.about-texts {
+  background-image: url("../img/JOB9.png");
+  height: 100%;
+}
+
+.about-us-text {
+  padding: 3.4rem 6.2rem;
+}
+.about-us--details {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-detail {
+  max-width: 10rem;
+
+  /* align/gap trick */
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* How It Works */
+.how-it-works {
+  margin-top: 7.8rem;
+  max-width: 120rem;
+  padding: 3.4rem 6.2rem;
+  margin: auto;
+}
+
+.how-heading {
+  margin-bottom: 3.2rem;
+  max-width: 43rem;
+}
+
+.how-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.how-detail {
+  border: 1px solid #35383e;
+  padding: 2.4rem 3.2rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Browse Job Section */
+.browse-jobs {
+  max-width: 120rem;
+  padding: 3.4rem 6.2rem;
+  margin: auto;
+}
+
+.browse-job-heading {
+  max-width: 35rem;
+  margin-bottom: 3.2rem;
+}
+
+.browse-job-btns {
+  display: flex;
+  gap: 3.2rem;
+  margin-bottom: 6.2rem;
+}
+
+.location-btn-div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid #1b1c1e;
+  overflow: hidden;
+  padding: 0 1.2rem;
+  padding-right: 6.2rem;
+}
+
+.btn--location {
+  color: #000;
+  background-color: #fff;
+  padding: 1rem 0.7rem;
+  border: none;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  max-width: 19rem;
+
+  transition: 0.3s;
+  display: flex;
+}
+
+.location-btn-div:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.browse-job-lists {
+  list-style-type: none;
+
+  display: flex;
+  gap: 1.2rem;
+  overflow: auto;
+}
+
+.browse-job-list {
+  width: auto;
+}
+
+.browse-job-list button {
+  width: auto;
+}
+
+.browse-job-btn {
+  background-color: #fff;
+  border: 1px solid #1b1c1e;
+  padding: 1rem 2.2rem;
+
+  font-size: 1.8rem;
+  border-radius: 2.4rem;
+
+  transition: all 0.3s;
+}
+
+.browse-job-btn:hover {
+  cursor: pointer;
+  background-color: #4e9759;
+  color: #fff;
+}
+
+.job {
+  position: relative;
+}
+
+.job-logo-div {
+  display: inline-block;
+  font-size: 2.9rem;
+  position: absolute;
+  left: 75%;
+  top: 15%;
+}
+
+/* Customer Review Section */
+
+.review-section {
+  margin-top: 7.8rem;
+}
+
+.review {
+  align-items: center;
+}
+
+.review-img {
+  width: 100%;
+  height: 100%;
+}
+
+.review-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.review-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-text {
+  background-image: url("../img/JOB9.png");
+  height: 100%;
+  padding: 3.2rem 6.2rem;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.review-text-heading {
+  text-transform: capitalize;
+  margin-bottom: 1.4rem;
+}
+
+.review-paragragh {
+  max-width: 43rem;
+}
+
+.customer-review {
+  background-color: #fff;
+  border-radius: 1.2rem;
+  padding: 2.4rem 3.7rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  margin-top: 4.8rem;
+}
+
+.review-icon {
+  font-size: 2.4rem;
+  color: #e1c42a;
+}
+
+.review-arrows {
+  display: flex;
+  gap: 2.4rem;
+  margin: auto;
+  margin-top: 2.4rem;
+}
+
+.review-arrow {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #3a8345;
+}
+
+.footer-contents {
+  padding: 2.4rem 6.2rem;
+}
+
+.footer--grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  justify-content: center;
+
+  gap: 6.8rem;
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.footer-hd-spacing {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.footer-icon {
+  font-size: 3.2rem;
+}
+
+.copyright {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+
+  font-size: 1.4rem;
+  padding: 1rem 6.2rem;
+
+  background-color: #1b1c1e;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer--input-div {
+  padding: 1rem 1.2rem;
+  border: 1.5px solid #fff;
+  border-radius: 0.7rem;
+}
+
+.footer--input::placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.footer--btn {
+  background-color: #fff;
+  padding: 1rem 2.4rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.7rem;
+}
